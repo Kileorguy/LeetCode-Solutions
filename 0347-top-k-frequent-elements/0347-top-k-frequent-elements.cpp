@@ -1,7 +1,14 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        priority_queue<pair<int,int>> pq;
+
+        struct CompareByFirst {
+            bool operator()(const pair<int, int>& a, const pair<int, int>& b) {
+                return a.first < b.first;
+            }
+        };
+        priority_queue<pair<int, int>, vector<pair<int, int>>, CompareByFirst> pq;
+
         unordered_map<int,int> um;
         for(int x: nums){
             if(um.count(x)==0){
