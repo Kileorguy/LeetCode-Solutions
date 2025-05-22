@@ -4,10 +4,9 @@ public:
         int left = 0, right = height.size()-1;
         int peak = 0;
 
-        int lowestHeight;
         while(left < right){
-            lowestHeight= min(height[left],height[right]);
-            peak = max(peak, lowestHeight * (right-left));
+            
+            peak = max(peak, min(height[left],height[right]) * (right-left));
 
             if(height[left] < height[right]){
                 left++;
