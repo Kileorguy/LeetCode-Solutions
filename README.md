@@ -99,8 +99,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
