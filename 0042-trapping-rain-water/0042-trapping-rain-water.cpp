@@ -8,7 +8,7 @@ public:
             int area;
             if(i+1 >= len)break;
             while(height[i] < height[i+1]) i++;
-            cout << "I : " << i << endl;
+            // cout << "I : " << i << endl;
             int right = i + 2;
 
             int max = 0;
@@ -28,13 +28,13 @@ public:
             
             area = (idx-i-1) * min(height[i], height[idx]);
 
-            cout << "Right " + to_string(idx) << endl;
-            cout << "Area " + to_string(area) << endl;
+            // cout << "Right " + to_string(idx) << endl;
+            // cout << "Area " + to_string(area) << endl;
             for(int j=i+1; j<idx;j++){
                 area -= min(height[j], min(height[i], height[idx]));
             }
 
-            cout << "Area " + to_string(area) << endl;
+            // cout << "Area " + to_string(area) << endl;
 
             sum += area;
 
