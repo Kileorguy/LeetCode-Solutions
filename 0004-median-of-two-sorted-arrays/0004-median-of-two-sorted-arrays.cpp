@@ -14,7 +14,7 @@ public:
             skipCount = total/2;
         }
 
-        cout << total << " "+to_string(skipCount) << endl;
+        // cout << total << " "+to_string(skipCount) << endl;
         int l = 0;
         int r = 0;
         int count = 0;
