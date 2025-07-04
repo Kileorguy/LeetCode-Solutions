@@ -19,8 +19,10 @@ public:
             if(checkSame(root, subRoot)) same = true;
         }
 
-        dfs(root->left, subRoot);
-        dfs(root->right, subRoot);
+        if(!same){
+            dfs(root->left, subRoot);
+            dfs(root->right, subRoot);
+        }
     }
 
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
