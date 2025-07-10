@@ -30,13 +30,13 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        cout << data << endl;
+        // cout << data << endl;
         if(data == "") return nullptr;
         vector<string> sList = split(data, ';');
         int len = sList.size();
 
-        cout << sList[0] << endl;
-        cout << "======" << endl;
+        // cout << sList[0] << endl;
+        // cout << "======" << endl;
         TreeNode *root = new TreeNode(stoi(sList[0]));
         queue<TreeNode*> q;
         q.push(root);
@@ -44,13 +44,13 @@ public:
         for(int i=1;i<len;i++){
             TreeNode *curr = q.front();
             q.pop();
-            cout << sList[i] << endl;
+            // cout << sList[i] << endl;
             if(sList[i] != "null"){
                 curr->left = new TreeNode(stoi(sList[i]));
                 q.push(curr->left);
             }
             i++;
-            cout << sList[i] << endl;
+            // cout << sList[i] << endl;
 
             if(sList[i] != "null"){
                 curr->right = new TreeNode(stoi(sList[i]));
