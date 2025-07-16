@@ -1,59 +1,26 @@
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
+#include <deque>
+#include <queue>
+#include <algorithm>
+
 class Twitter {
 public:
     using userId = int;
     using tweetId = int;
+    
     unordered_map<userId, unordered_set<userId>> followTable; 
-    unordered_map<userId, vector<pair<int, tweetId>>> tweetTable; 
-    int tweet_count;
-    Twitter(){
-        tweet_count = 0;
+    unordered_map<userId, deque<pair<int, tweetId>>> tweetTable; 
+    
+    long long time;
+
+    Twitter() {
+        time = 0;
     }
 
-    struct Compare{
-
-        bool operator()(const pair<int,int> &a, const pair<int,int> &b){
-            return a.first > b.first;
-        }
-    };
-    
     void postTweet(int userId, int tweetId) {
-        vector<pair<int,int>> &vect = tweetTable[userId];
-        vect.insert(vect.begin(), {tweet_count, tweetId});
-        tweet_count++;
-    }
-    
-    vector<int> getNewsFeed(int userId) {
-        priority_queue<pair<int,int>, vector<pair<int,int>>, Compare> sort;
-        vector<int> followedUsers;
-        followedUsers.push_back(userId);
-        
-        unordered_set<int> &us = followTable[userId];
-
-        for(auto it=us.begin(); it!=us.end(); ++it){
-            followedUsers.push_back(*it);
-        }
-
-        for(int &id: followedUsers){
-            vector<pair<int,int>> &tweets = tweetTable[id];
-            for(pair<int,int> &t: tweets){
-                
-                if(sort.size() < 10){
-                    sort.push(t);
-                }else{
-                    if(sort.top().first < t.first){
-                        sort.pop();
-                        sort.push(t);
-                    }
-                }
-            }
-        }
-
-        vector<int> ans;
-        while(!sort.empty()){
-            ans.insert(ans.begin(),sort.top().second);
-            sort.pop();
-        }
-        return ans;
+        tweetTable[userId].push_front({(int)time++, tweetId});
     }
     
     void follow(int followerId, int followeeId) {
@@ -62,5 +29,40 @@ public:
     
     void unfollow(int followerId, int followeeId) {
         followTable[followerId].erase(followeeId);
+    }
+
+    vector<int> getNewsFeed(int userId) {
+        vector<int> feed;
+        feed.reserve(10);
+
+        priority_queue<pair<int, int>> maxHeap;
+
+        if (tweetTable.count(userId)) {
+            for (const auto& tweet : tweetTable[userId]) {
+                maxHeap.push(tweet);
+            }
+        }
+        int iterCount = 0;
+        if (followTable.count(userId)) {
+            for (const auto& followeeId : followTable[userId]) {
+                if (tweetTable.count(followeeId)) {
+                    iterCount = 0;
+                    for (const auto& tweet : tweetTable[followeeId]) {
+                        if(iterCount == 10) break;
+                        maxHeap.push(tweet);
+                        iterCount++;
+                    }
+                }
+            }
+        }
+
+        int count = 0;
+        while (!maxHeap.empty() && count < 10) {
+            feed.push_back(maxHeap.top().second);
+            maxHeap.pop();
+            count++;
+        }
+        
+        return feed;
     }
 };
