@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 ## Sorting
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1127-last-stone-weight) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Math
 |  |
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
