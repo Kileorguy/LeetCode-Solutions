@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0739-daily-temperatures](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0883-car-fleet) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0883-car-fleet](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 ## String
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -171,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 ## Stack
 |  |
 | ------- |
