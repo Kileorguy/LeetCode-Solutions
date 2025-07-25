@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1127-last-stone-weight) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Hash Table
 |  |
 | ------- |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0876-hand-of-straights](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Sorting
 |  |
 | ------- |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0876-hand-of-straights](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Dynamic Programming
 |  |
 | ------- |
