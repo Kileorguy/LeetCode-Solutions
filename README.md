@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [0768-partition-labels](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Sorting
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [0768-partition-labels](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0768-partition-labels) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [0768-partition-labels](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0768-partition-labels) |
 ## Binary Search
 |  |
 | ------- |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
+| [0768-partition-labels](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
