@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1036-rotting-oranges](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1127-last-stone-weight) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0212-word-search-ii) |
 | [0695-max-area-of-island](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
