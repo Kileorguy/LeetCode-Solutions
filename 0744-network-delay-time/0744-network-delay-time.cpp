@@ -10,7 +10,7 @@ public:
             // weight, destination
         }
 
-        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<int> dist(n+1, INT_MAX);
         dist[k] = 0;
 
@@ -18,13 +18,14 @@ public:
 
         while(!pq.empty()){
 
-            int currDest = pq.top()[1]; pq.pop();
+            auto [currW, currDest] = pq.top(); pq.pop();
+
+            if(currW > dist[currDest]) continue;
 
             for(pair<int,int> g: graph[currDest]){
                 int d = g.second;
                 int w = g.first;
 
-                cout << d << " " << w << endl;
 
                 if(dist[d] > dist[currDest] + w){
                     dist[d] = dist[currDest] + w;
