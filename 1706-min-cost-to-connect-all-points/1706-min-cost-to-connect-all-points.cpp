@@ -5,55 +5,40 @@ public:
         return(abs(a.first-b.first) + abs(a.second - b.second));
     }
 
-    int topMostParent(vector<int> &parents, int u){
-        if(parents[u] == -1) return u;
-        return topMostParent(parents, parents[u]);
-    }
-
-    bool connectV2U(vector<int> &parents, int u, int v){
-        int uP = topMostParent(parents, u);
-        int vP = topMostParent(parents, v);
-
-        if(uP != vP){
-            parents[vP] = uP;
-            parents[v] = uP;
-            return true;
-        }
-
-        return false;
-    }
-
     int minCostConnectPoints(vector<vector<int>>& points) {
-        
+        int ans = 0;
         int n = points.size();
-        vector<int> parents(n, -1);
-        vector<vector<int>>  edges;
-        // dist, u, v
+
+        vector<bool> visited(n, false);        
+        vector<int> distance(n, INT_MAX);
         
+        distance[0] = 0;
+
         for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                edges.push_back({manhattanDist(
-                    {points[i][0], points[i][1]},
-                    {points[j][0], points[j][1]}
-                ), i,j});
+            int u = -1;
+            for(int j=0;j<n;j++){
+                if(!visited[j] && (u == -1 || distance[j] < distance[u])){
+                    u = j;
+                }
+            }
+
+
+            ans += distance[u];
+            visited[u] = true;
+
+            for(int j=0; j<n;j++){
+                if(!visited[j]){
+                    int dist = manhattanDist(
+                        {points[u][0], points[u][1]},
+                        {points[j][0], points[j][1]}
+                    );
+                    if(distance[j] > dist){
+                        distance[j] = dist;
+                    }
+                }
             }
         }
 
-        auto cmp = [](const vector<int>& a, const vector<int>& b) {
-            return a[0] > b[0];
-        };
-
-        sort(edges.begin(), edges.end(), cmp);
-
-        int ans = 0;
-        while(!edges.empty()){
-            vector<int> &e = edges.back();
-            if(connectV2U(parents, e[1], e[2])) ans+=e[0];
-
-            edges.pop_back();
-        }
-
         return ans;
-        
     }
 };
