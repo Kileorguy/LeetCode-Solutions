@@ -43,14 +43,14 @@ public:
             return a[0] > b[0];
         };
 
-        make_heap(edges.begin(), edges.end(), cmp);
+        sort(edges.begin(), edges.end(), cmp);
+
         int ans = 0;
         while(!edges.empty()){
-            vector<int> e = edges.front();
-            pop_heap(edges.begin(), edges.end(), cmp);
-            edges.pop_back();
-
+            vector<int> &e = edges.back();
             if(connectV2U(parents, e[1], e[2])) ans+=e[0];
+
+            edges.pop_back();
         }
 
         return ans;
