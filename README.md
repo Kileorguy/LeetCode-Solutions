@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
@@ -417,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Kileorguy/LeetCode-Solutions/tree/master/0695-max-area-of-island) |
